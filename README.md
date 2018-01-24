@@ -15,10 +15,7 @@ No need
 ## Running the tests
 Currently there are no tests for this project. There will probably be some for specific uses
 
-### Break down into end to end tests
-No need
-
-### And coding style tests
+### Break down into end to end tests And coding style tests
 No need
 
 ## Deployment
