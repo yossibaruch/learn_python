@@ -7,6 +7,7 @@ def quicksort(A, lowerq, upperq):
     return A
 
 
+
 def partition(A, lowerp, upperp):
     print(A, lowerp, upperp, "in partition")
     pivot = A[lowerp]
