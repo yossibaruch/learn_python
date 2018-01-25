@@ -1,31 +1,31 @@
-def quicksort(A, lowerq, upperq):
-    print(A, lowerq, upperq, "in quicksort")
+def get_list_of_int():
+    return [int(x) for x in input("Please input the integers list with spaces in between, Enter to finish\n\n").split()]
+
+
+def quicksort(list_of_int, lowerq, upperq):
     if lowerq < upperq:
-        p = partition(A, lowerq, upperq)
-        quicksort(A, lowerq, p - 1)
-        quicksort(A, p + 1, upperq)
-    return A
+        p = partition(list_of_int, lowerq, upperq)
+        quicksort(list_of_int, lowerq, p - 1)
+        quicksort(list_of_int, p + 1, upperq)
+    return list_of_int
 
 
-def partition(A, lowerp, upperp):
-    print(A, lowerp, upperp, "in partition start")
-    pivot = A[lowerp]
-    index_l = lowerp + 1
-    index_r = upperp
+def partition(list_of_int, lowerp, right):
+    pivot = list_of_int[lowerp]
+    left = lowerp + 1
     done = False
     while not done:
-        while (index_l <= index_r) and (A[index_l] <= pivot):
-            index_l += 1
-        while (index_l <= index_r) and (A[index_r] >= pivot):
-            index_r -= 1
-        if not (index_l > index_r):
-            A[index_l], A[index_r] = A[index_r], A[index_l]
+        while (left <= right) and (list_of_int[left] <= pivot):
+            left += 1
+        while (left <= right) and (list_of_int[right] >= pivot):
+            right -= 1
+        if not (left > right):
+            list_of_int[left], list_of_int[right] = list_of_int[right], list_of_int[left]
         else:
             done = True
-    A[lowerp], A[index_r] = A[index_r], A[lowerp]
-    return index_r
+            list_of_int[lowerp], list_of_int[right] = list_of_int[right], list_of_int[lowerp]
+    return right
 
 
-A = [5, 2, 3, 10, 1, 8, 6, 4, 7]
-print(A, 0, len(A) - 1)
+A = get_list_of_int()
 print(quicksort(A, 0, len(A) - 1))
