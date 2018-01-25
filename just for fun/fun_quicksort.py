@@ -8,24 +8,24 @@ def quicksort(A, lowerq, upperq):
 
 
 def partition(A, lowerp, upperp):
-    print(A, lowerp, upperp, "in partition")
+    print(A, lowerp, upperp, "in partition start")
     pivot = A[lowerp]
     index_l = lowerp + 1
     index_r = upperp
-
-    while index_l < index_r:
-        while (A[index_l] < pivot) and (index_l <= index_r): index_l += 1
-        while (A[index_r] > pivot) and (index_l <= index_r): index_r -= 1
-        A[index_l], A[index_r] = A[index_r], A[index_l]
-        print(A, index_l, index_r, "in partition in while")
-    A[lowerp], A[index_l] = A[index_l], A[lowerp]
-    print(A, index_l, index_r, "in partition end")
+    done = False
+    while not done:
+        while (index_l <= index_r) and (A[index_l] <= pivot):
+            index_l += 1
+        while (index_l <= index_r) and (A[index_r] >= pivot):
+            index_r -= 1
+        if not (index_l > index_r):
+            A[index_l], A[index_r] = A[index_r], A[index_l]
+        else:
+            done = True
+    A[lowerp], A[index_r] = A[index_r], A[lowerp]
     return index_r
 
 
 A = [5, 2, 3, 10, 1, 8, 6, 4, 7]
-
 print(A, 0, len(A) - 1)
-# print(A[lower], A[upper])
-
 print(quicksort(A, 0, len(A) - 1))
