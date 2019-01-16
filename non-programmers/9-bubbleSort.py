@@ -14,13 +14,8 @@ while True:
         continue
     break
 
-print(array)
-print(sorted(array))
-
 while not array == sorted(array):
     for i in range(len(array)-1):
-        print(array[i], array[i+1])
         array[i], array[i+1] = (array[i], array[i+1]) if array[i] < array[i+1] else (array[i+1], array[i])
-        print(array[i], array[i + 1])
 
 print(array)
