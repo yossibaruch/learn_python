@@ -14,11 +14,11 @@ listForSum = []
 while True:
     added = input("sum+= ")
     if added == "":
-        print(sum(listForSum), "is the sum of integers entered, thank you!!!")
+        print(sum(listForSum), "is the sum of floats entered, thank you!!!")
         exit(0)
     try:
-        added = int(added)
+        added = float(added)
     except ValueError:
-        print("Not an INT!!!")
+        print("Not a FLOAT!!!")
         continue
     listForSum.append(added)
