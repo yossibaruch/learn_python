@@ -9,7 +9,7 @@
 - [x] [caesar code](https://www.youtube.com/watch?v=qI7N-WB8LDg&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=10)
 - [x] [factorial](https://www.youtube.com/watch?v=rqL_tJa6t7o&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=11)
 - [x] [binary search](https://www.youtube.com/watch?v=zDWNesbL8X8&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=12)
-- [x] [braces](https://www.youtube.com/watch?v=o0GRp6lDJIc&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=13)
+- [x] **-->[braces](https://www.youtube.com/watch?v=o0GRp6lDJIc&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=13)**
 - [ ] [metronome](https://www.youtube.com/watch?v=K4OAgCjwSbw&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=14)
 - [ ] [hang man](https://www.youtube.com/watch?v=7TsLuaejbMs&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=15)
 - [ ] [OOP](https://www.youtube.com/watch?v=odRYxQLGb2U&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=16)
