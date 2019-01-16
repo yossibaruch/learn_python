@@ -2,7 +2,7 @@
 Learning python is a lot of fun, here lies what I'm trying to do
 
 ## Getting Started
-1. You need a  Token
+1. You need a Token
 2. Using that Token, you can connect to the project via pycharm/whatever.
 3. You can also just download the project
 
