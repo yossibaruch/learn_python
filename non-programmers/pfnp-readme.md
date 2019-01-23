@@ -11,7 +11,7 @@
 - [x] [binary search](https://www.youtube.com/watch?v=zDWNesbL8X8&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=12)
 - [x] [braces](https://www.youtube.com/watch?v=o0GRp6lDJIc&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=13)**
 - [x] [metronome](https://www.youtube.com/watch?v=K4OAgCjwSbw&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=14)
-- [ ] [hang man](https://www.youtube.com/watch?v=7TsLuaejbMs&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=15)
+- [x] [hang man](https://www.youtube.com/watch?v=7TsLuaejbMs&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=15)
 - [ ] [OOP](https://www.youtube.com/watch?v=odRYxQLGb2U&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=16)
 - [ ] [X - O](https://www.youtube.com/watch?v=Fe5dc0P9DNM&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=17)
 - [ ] [fibonacci](https://www.youtube.com/watch?v=DEs1Ied4iLk&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=18)
