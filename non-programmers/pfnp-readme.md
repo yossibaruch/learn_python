@@ -14,7 +14,7 @@
 1. [x] [metronome 14](https://www.youtube.com/watch?v=K4OAgCjwSbw&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=14)
 1. [x] [hang man 15](https://www.youtube.com/watch?v=7TsLuaejbMs&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=15)
 1. [x] [OOP 16](https://www.youtube.com/watch?v=odRYxQLGb2U&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=16)
-1. [x] --> [X - O 17](https://www.youtube.com/watch?v=Fe5dc0P9DNM&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=17)
+1. [x] [X - O 17](https://www.youtube.com/watch?v=Fe5dc0P9DNM&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=17)
 1. [x] [fibonacci 18](https://www.youtube.com/watch?v=DEs1Ied4iLk&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=18)
 1. [ ] --> [rock, paper, scissors c1 s1](https://www.youtube.com/watch?v=O0VPHcJPBYU&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9&index=19)
 1. [ ] [change 19](https://www.youtube.com/watch?v=H-N3pvnFzvk&index=21&list=PLNw59-mmUTgVrpML9zdrxMAiT5REGuGf9)
