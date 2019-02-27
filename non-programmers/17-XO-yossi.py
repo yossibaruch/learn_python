@@ -6,6 +6,28 @@ print("""
 """)
 
 
+class Game:
+    def __init__(self, player1, player2):
+        self.board = Board()
+        self.players = [Player(player1, "X"), Player(player2, "Y")]
+        self.turn = False
+
+    def play(self):
+        while True:
+            current_player = self.players[int(self.turn)]
+            self.turn = not self.turn
+            print(self.board.to_string)
+            move = int(input(f'Please write down your move player {current_player.name}:'))
+            print(move)
+            is_winner = self.board.make_move(current_player, move)
+            if is_winner:
+                print(f'We have a winner, {current_player.name} has won!!!')
+            empty_spaces = [i for i, val in enumerate(self.board.board) if val == ' ']
+            if not empty_spaces:
+                print("No one has won, fuck off!!!")
+                break
+
+
 class Player:
     def __init__(self, name, marker):
         self.name = name
@@ -21,6 +43,9 @@ class Board:
         print("{}|{}|{}\n-----\n{}|{}|{}\n-----\n{}|{}|{}\n".format(*self.board))
 
     def make_move(self, player, place):
+        while self.board[place] != ' ':
+            place = int(input(f'Place {place} not empty, please select another:'))
+        print(player.name, player.marker, place)
         self.board[place] = player.marker
         return self.is_winner(player.marker)
 
@@ -46,18 +71,5 @@ class Board:
         return False
 
 
-yossi = Player("yossi", "X")
-shoshy = Player("shoshy", "Y")
-board = Board()
-print(board.to_string())
-
-board.make_move(yossi, 0)
-board.make_move(shoshy, 1)
-board.make_move(yossi, 3)
-board.make_move(shoshy, 4)
-board.make_move(yossi, 5)
-board.make_move(shoshy, 2)
-board.make_move(yossi, 6)
-board.make_move(shoshy, 7)
-board.make_move(yossi, 8)
-
+game = Game("yossi", "shoshy")
+game.play()
